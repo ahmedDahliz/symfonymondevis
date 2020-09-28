@@ -1,0 +1,30 @@
+###> symfony/framework-bundle ###
+/.idea/
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/public/uploads/avatar/mondevis-*
+/public/uploads/product/images/mondevis-*
+/public/uploads/component/images/mondevis-*
+/public/uploads/component/files/mondevis-*
+/public/uploads/quote/*.pdf
+/src/Migrations/*.php
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> symfony/web-server-bundle ###
+/.web-server-pid
+###< symfony/web-server-bundle ###
